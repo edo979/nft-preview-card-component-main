@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card {
+  width: 375px;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 20px;
+  color: white;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.card-image {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: hsl(178, 100%, 50%);
+  background-image: url(images/icon-view.svg);
+  background-size: 80px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card-image a {
+  display: block;
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+}
+
+.card-image img:hover {
+  opacity: 0.5;
+}
+
+.card-title {
+  margin: 1.4rem 0 1.2rem;
+  font-size: 1.6rem;
+}
+
+.card-description {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.card .card-info .value p {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-info .value p,
+.card-info .time-left p {
+  margin-left: 10px;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-author {
+  padding: 1rem 0 0;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.author-logo img {
+  width: 40px;
+  margin: 0;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.author-name {
+  margin-left: 20px;
+  color: hsl(215, 51%, 70%);
+}

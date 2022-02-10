@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-html {
-  font-size: 18px;
-}
-
 body {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(217, 54%, 11%);
@@ -19,8 +15,8 @@ a:hover {
 }
 
 .card {
-  width: 350px;
-  padding: 30px;
+  width: 280px;
+  padding: 25px;
   margin: 50px auto;
   border-radius: 20px;
   color: white;
@@ -52,12 +48,11 @@ a:hover {
 
 .card-title {
   margin: 1.4rem 0 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .card-description {
   margin: 0;
-  font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.8;
   color: hsl(215, 51%, 70%);
@@ -82,7 +77,6 @@ a:hover {
 .card-info .value p,
 .card-info .time-left p {
   margin-left: 10px;
-  font-size: 1.1rem;
   font-weight: 400;
   color: hsl(215, 51%, 70%);
 }
@@ -100,8 +94,7 @@ a:hover {
 }
 
 .author-name {
-  font-size: 1.1rem;
   font-weight: 300;
-  margin-left: 22px;
+  margin-left: 20px;
   color: hsl(215, 51%, 70%);
 }
